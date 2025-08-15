@@ -1,4 +1,4 @@
-# <package_name>
+# @1ib/async
 
 <package_description>
 
@@ -13,17 +13,17 @@
 Install using `npm` or other package managers:
 
 ```
-npm install <package_author_name>/<package_name>
+npm install @1ib/async
 ```
 
 Import into your Node.js project:
 
 ```js
 // CommonJS
-const { <package_name> } = require("<package_author_name>/<package_name>")
+const { async } = require("@1ib/async")
 
 // ESM
-import { <package_name> } from "<package_author_name>/<package_name>"
+import { async } from "@1ib/async"
 ```
 
 ### Deno
@@ -31,17 +31,17 @@ import { <package_name> } from "<package_author_name>/<package_name>"
 Install using [JSR](https://jsr.io):
 
 ```shell
-deno add <package_author_name>/<package_name>
+deno add @1ib/async
 
 #or
 
-jsr add <package_author_name>/<package_name>
+jsr add @1ib/async
 ```
 
 Then import into your Deno project:
 
 ```js
-import { <package_name> } from "<package_author_name>/<package_name>"
+import { async } from "@1ib/async"
 ```
 
 ### Bun
@@ -49,13 +49,13 @@ import { <package_name> } from "<package_author_name>/<package_name>"
 Install using this command:
 
 ```
-bun add <package_author_name>/<package_name>
+bun add @1ib/async
 ```
 
 Import into your Bun project:
 
 ```js
-import { <package_name> } from "<package_author_name>/<package_name>"
+import { async } from "@1ib/async"
 ```
 
 ### Browser
@@ -63,22 +63,22 @@ import { <package_name> } from "<package_author_name>/<package_name>"
 It's recommended to import the minified version to save bandwidth:
 
 ```js
-import { <package_name> } from "https://cdn.skypack.dev/<package_author_name>/<package_name>?min"
+import { async } from "https://cdn.skypack.dev/@1ib/async?min"
 ```
 
 However, you can also import the unminified version for debugging purposes:
 
 ```js
-import { <package_name> } from "https://cdn.skypack.dev/<package_author_name>/<package_name>"
+import { async } from "https://cdn.skypack.dev/@1ib/async"
 ```
 
 ## License
 
-This project is licensed under the <package_license>.
+This project is licensed under the MIT.
 
 ## Author
 
-[<package_author_name>](https://github.com/<package_author_name>)
+[@1ib](https://github.com/@1ib)
 
 ---
 

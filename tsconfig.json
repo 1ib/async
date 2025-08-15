@@ -22,6 +22,8 @@
         "paths": {
             "@/*": ["source/*"]
         },
-        "types": ["reflect-metadata"]
+        "plugins": [
+          { "transform": "ts-macros" }
+        ]
     }
 }
